@@ -1,90 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Bootstrap and Stylesheets -->
-        <link rel="stylesheet" href="/css/style.css" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-            crossorigin="anonymous"
-        />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
-        <title>Ottawa Fades</title>
-    </head>
-    <body>
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- Bootstrap and Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <title>Ottawa Fades</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container">
                 <a href="#" class="navbar-brand">
-                    <img
-                        src="/assets/logos/logo-transparent-png.png"
-                        alt=""
-                        width="258rem"
-                    />
+                    <img src="/assets/logos/logo-transparent-png.png" alt="" width="258rem" />
                 </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-dark navbar-toggler-icon"></span>
                 </button>
-                <div
-                    class="collapse navbar-collapse flex-grow-0"
-                    id="navbarNavAltMarkup"
-                >
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a
-                            href="#"
-                            class="nav-item nav-item--underline nav-link me-4"
-                            >Services</a
-                        >
-                        <a
-                            href="#"
-                            class="nav-item nav-item--underline nav-link me-4"
-                            >FAQs</a
-                        >
-                        <a
-                            href="#"
-                            class="nav-item nav-item--underline nav-link"
-                            >Contact</a
-                        >
+                        <a href="#" class="nav-item nav-item--underline nav-link me-4">Services</a>
+                        <a href="#" class="nav-item nav-item--underline nav-link me-4">FAQs</a>
+                        <a href="#" class="nav-item nav-item--underline nav-link">Contact</a>
                     </div>
-                    <a href="#" class="btn-nav-cta ms-5 px-4 py-2">BOOK NOW </a>
+                    <a href="#" class="btn-nav-cta ms-5 px-4 py-2">BOOK NOW
+                    </a>
                 </div>
             </div>
         </nav>
+        </header>
 
         <!-- HERO SECTION -->
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img
-                        src="/assets/hero-img.png"
-                        class="d-block mx-lg-auto img-fluid"
-                        alt="Bootstrap Themes"
-                        width="700"
-                        height="500"
-                        loading="lazy"
-                    />
-                </div>
+        <main class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row align-items-center g-5 py-5 mb-4">
                 <div class="col-lg-6">
                     <h1 class="fw-bold lh-md mb-4 heading-primary">
                         Ottawa Fades Hair Salon
@@ -92,35 +57,185 @@
                     <p class="mb-5 heading-tertiary">
                         Professional Men's Hair Services Since 2012
                     </p>
-                    <div
-                        class="d-grid gap-2 d-md-flex justify-content-md-start"
-                    >
-                        <button
-                            type="button"
-                            class="btn btn-primary btn-lg px-4 me-md-2"
-                        >
-                            Primary
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-dark btn-lg px-4 py-3 me-md-2 btn-style rounded-0" style="
+                                font-family: 'Raleway', sans-serif;
+                                font-size: medium;
+                            ">
+                            BOOK NOW
                         </button>
-                        <button
-                            type="button"
-                            class="btn btn-outline-secondary btn-lg px-4"
-                        >
-                            Default
+                        <button type="button" class="btn btn-outline-dark btn-lg px-4 py-3 btn-style rounded-0" style="
+                                font-family: 'Raleway', sans-serif;
+                                font-size: medium;
+                            " ,>
+                            SERVICES
                         </button>
                     </div>
                 </div>
+                <div class="col-10 col-sm-8 col-lg-6 hero-img">
+                    <img src="/assets/hero-img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy" />
+                </div>
             </div>
-        </div>
+        </main>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+
+        <section class="container px-4 py-5" id="hanging-icons">
+            <p class="mb-0 heading-tertiary">STEPS</p>
+            <h2 class="pb-2 heading-secondary">How To Book</h2>
+            <div class="container row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start mb-4">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-1-square" viewBox="0 0 16 16">
+                            <path d="M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="display-6">Choose Barber</h2>
+                        <p>
+                            Select a barber from one of our talented and specialized group of professionals. Click
+                            <strong>Book Now</strong> to get started.
+                        </p>
+                        <a href="#" class="btn btn-dark px-3 py-2" style="font-family: Raleway, sans-serif;">
+                            BOOK NOW
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start mb-4">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-2-square" viewBox="0 0 16 16">
+                            <path
+                                d="M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="display-6">Select Service</h2>
+                        <p>
+                            After selecting a professional, you can choose from one of our services.
+                            Take a look at our available services below!
+                        </p>
+                        <a href="#" class="btn btn-dark px-3 py-2" style="font-family: Raleway, sans-serif;">
+                            SERVICES
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start mb-3">
+                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-3-square" viewBox="0 0 16 16">
+                            <path
+                                d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2 class="display-6">Finish Booking</h2>
+                        <p>
+                            After selecting a service, you can choose your preferred time & date, and book your
+                            appointment.
+                            You will receive a reminder 24 hours before your appointment.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container px-4 py-5">
+            <p class="mb-0 heading-tertiary">GALLERY</p>
+            <h2 class="pb-3 heading-secondary">Check out the best haircuts in Ottawa</h2>
+            <div class="container text-center my-4">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-1.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-2.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-3.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-4.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-5.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img">
+                                            <img src="/assets/haircuts-carousel/man-img-6.jpg" class="img-fluid grayscale-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#imageCarousel" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#imageCarousel" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section></section>
+
+        <!-- </main> -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
             integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+            crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+</body>
+
 </html>
