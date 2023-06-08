@@ -157,6 +157,12 @@ body {
     font-size: 1.3rem;
 }
 
+.heading-appointment-details {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 .btn-style {
     font-family: "Raleway", sans-serif;
     font-family: 1rem;
@@ -261,6 +267,10 @@ body {
     .heading-secondary {
         font-size: 2.5rem;
     }
+
+    .heading-tertiary {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 50em) {
@@ -275,6 +285,14 @@ body {
     .heading-secondary {
         font-size: 2rem;
     }
+
+    .heading-tertiary {
+        font-size: 1rem;
+    }
+
+    /* .details-summary {
+        display: none;
+    } */
 }
 
 /* CAROUSEL */
@@ -309,4 +327,7 @@ body {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
     transform: translateX(0);
+}
+
+@media (max-width: 48em) {
 }
