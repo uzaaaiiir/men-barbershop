@@ -40,9 +40,7 @@
             <div class="container">
                 <div class="row g-5 flex-row-reverse flex-lg-row">
                     <!-- First column -->
-                    <div
-                        class="col-lg-6 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-xs-2 py-5"
-                    >
+                    <div class="col-lg-6 py-5">
                         <!-- TITLE -->
                         <h1
                             class="col align-self-center text-center heading-primary mb-5 pb-3"
@@ -107,13 +105,130 @@
                                 booking
                             </p>
                         </div>
+                        <form
+                            class="row g-3 mx-3 my-3 needs-validation"
+                            action="/pages/book-confirmation.html"
+                        >
+                            <div class="col-md-6">
+                                <label
+                                    for="inputEmail4"
+                                    class="form-label heading-tertiary"
+                                    >First Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control heading-tertiary"
+                                    id="inputEmail4"
+                                    placeholder="First Name"
+                                    required
+                                />
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label
+                                    for="inputPassword4"
+                                    class="form-label heading-tertiary"
+                                    >Last Name</label
+                                >
+                                <input
+                                    type="Last Name"
+                                    class="form-control heading-tertiary"
+                                    id="inputPassword4"
+                                    placeholder="Last Name"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-12">
+                                <label
+                                    for="inputEmail4"
+                                    class="form-label heading-tertiary"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control heading-tertiary py-2"
+                                    id="inputEmail4"
+                                    placeholder="example@gmail.com"
+                                    required
+                                />
+                            </div>
+                            <div class="col-12">
+                                <label
+                                    for="inputAddress"
+                                    class="form-label heading-tertiary"
+                                    >Address</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control heading-tertiary"
+                                    id="inputAddress"
+                                    placeholder="1234 Main St"
+                                />
+                            </div>
+
+                            <div class="col-md-6">
+                                <label
+                                    for="inputCity"
+                                    class="form-label heading-tertiary"
+                                    >City</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control heading-tertiary"
+                                    id="inputCity"
+                                    placeholder="Toronto"
+                                />
+                            </div>
+                            <div class="col-md-4">
+                                <label
+                                    for="inputState"
+                                    class="form-label heading-tertiary"
+                                    >State</label
+                                >
+                                <select
+                                    id="inputState"
+                                    class="form-select heading-tertiary"
+                                >
+                                    <option selected></option>
+                                    <option>Ontario</option>
+                                    <option>Quebec</option>
+                                    <option>Nova Scotia</option>
+                                    <option>New Brunswick</option>
+                                    <option>Manitobo</option>
+                                    <option>British Columbia</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label
+                                    for="inputZip"
+                                    class="form-label heading-tertiary"
+                                    >Zip</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control heading-tertiary"
+                                    id="inputZip"
+                                />
+                            </div>
+                            <div
+                                class="col-12 text-center heading-tertiary py-3"
+                            >
+                                <button
+                                    type="submit"
+                                    class="btn btn-outline-dark rounded-0 px-4 py-2"
+                                    id="submit--user-details-form"
+                                >
+                                    BOOK NOW
+                                </button>
+                            </div>
+                        </form>
                         <!-- USER DETAILS ENDS -->
                     </div>
                     <!-- First column -->
 
                     <!-- Second column -->
                     <div
-                        class="col-lg-6 details-summary flex-xl-column flex-lg-column d-md-flex d-sm-flex d-xs-flex order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 position-relative py-5"
+                        class="col-lg-6 details-summary position-relative py-5"
                         style="background-color: #f9f9f9"
                     >
                         <div
@@ -208,5 +323,6 @@
             integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
             crossorigin="anonymous"
         ></script>
+        <script src="/js/book.js"></script>
     </body>
 </html>
