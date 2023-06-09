@@ -37,13 +37,11 @@
     </head>
     <body>
         <!-- Section: Split screen -->
-        <section class="">
+        <section>
             <div class="container">
-                <div class="row g-5 flex-row-reverse flex-lg-row">
+                <div class="row flex-row-reverse flex-lg-row">
                     <!-- First column -->
-                    <div
-                        class="col-lg-6 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-xs-2 py-5"
-                    >
+                    <div class="col-lg-6 py-5 px-2">
                         <!-- TITLE -->
                         <h1
                             class="col align-self-center text-center heading-primary mb-5 pb-3"
@@ -108,9 +106,7 @@
                         <!-- CHOOSE TIME TITLE ENDS -->
 
                         <!-- TIME LIST START -->
-                        <div
-                            class="d-flex flex-column flex-md-row pb-md-3 justify-content-center justify-content-sm-center mb-4"
-                        >
+                        <div class="d-flex pb-md-3 justify-content-center mb-4">
                             <div
                                 class="dropdown-menu d-block position-static p-2 mx-0 shadow rounded-0 w-340px"
                                 data-bs-theme="dark"
@@ -456,7 +452,7 @@
 
                     <!-- Second column -->
                     <div
-                        class="col-lg-6 details-summary flex-xl-column flex-lg-column d-md-flex d-sm-flex d-xs-flex order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 position-relative py-5"
+                        class="col-lg-6 details-summary position-relative py-5 px-5"
                         style="background-color: #f9f9f9"
                     >
                         <div
@@ -504,6 +500,65 @@
             </div>
         </section>
         <!-- Section: Split screen -->
+
+        <!-- FOOTER -->
+        <div class="container-fluid bg-dark">
+            <footer class="container py-5">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <a href="/index.html" class="col-12 col-md">
+                            <img
+                                src="/assets/logos/logo-transparent-png.png"
+                                alt=""
+                                height="100rem"
+                            />
+                        </a>
+                    </div>
+                    <div class="col-9 col-lg">
+                        <p class="footer-address my-0">123 Market St. #22B</p>
+                        <p class="footer-address my-0">Ottawa, ON, Canada</p>
+                        <p class="footer-address">K1Y XXX</p>
+                        <ul class="list-unstyled text-small">
+                            <li>
+                                <a
+                                    class="link-secondary text-decoration-none py-1"
+                                    >(434)546-4356</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="link-secondary text-decoration-none py-1"
+                                    >contact@lift.agency</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg justify-content-center">
+                        <h5
+                            style="
+                                font-family: Poppins, sans-serif;
+                                color: white;
+                            "
+                            class="mb-3"
+                        >
+                            HOURS
+                        </h5>
+                        <div class="d-flex align-items-center mb-2">
+                            <h6 class="footer-address me-3 mb-1">MON-FRI</h6>
+                            <p class="footer-address mb-1">11AM - 8PM</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <h6 class="footer-address me-3 mb-1">SAT</h6>
+                            <p class="footer-address mb-1">11AM - 8PM</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <h6 class="footer-address me-3 mb-1">SUN</h6>
+                            <p class="footer-address mb-1">11AM - 8PM</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
