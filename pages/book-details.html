@@ -107,6 +107,7 @@
                         </div>
                         <form
                             class="row g-3 mx-3 my-3 needs-validation"
+                            onclick="storeInfo()"
                             action="/pages/book-confirmation.html"
                         >
                             <div class="col-md-6">
@@ -253,7 +254,9 @@
                                 >
                                     BARBER
                                 </p>
-                                <h6 class="heading-appointment-details">
+                                <h6
+                                    class="heading-appointment-details barber-name"
+                                >
                                     Jonathan Gonzales
                                 </h6>
                             </div>
@@ -265,7 +268,9 @@
                                 >
                                     SERVICE
                                 </p>
-                                <h6 class="heading-appointment-details">
+                                <h6
+                                    class="heading-appointment-details service-name"
+                                >
                                     Haircut & Beard Trim
                                 </h6>
                             </div>
@@ -299,7 +304,8 @@
                                                 d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                                             />
                                         </svg>
-                                        <span class="d-block large opacity-75"
+                                        <span
+                                            class="d-block large opacity-75 booking-length"
                                             >60 minutes</span
                                         >
                                     </div>
@@ -382,6 +388,6 @@
             integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
             crossorigin="anonymous"
         ></script>
-        <script src="/js/book.js"></script>
+        <script src="/js/book-details.js"></script>
     </body>
 </html>

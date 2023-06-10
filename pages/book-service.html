@@ -172,13 +172,13 @@
                                     checked
                                 />
                                 <label
-                                    class="list-group-item px-5 py-4"
+                                    class="list-group-item px-5 py-4 haircut-item"
                                     for="listGroupCheckableRadios1"
                                 >
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p
-                                                class="mb-2 heading-tertiary medium"
+                                                class="mb-2 heading-tertiary medium service-name"
                                             >
                                                 HAIRCUT
                                             </p>
@@ -225,13 +225,13 @@
                                     value=""
                                 />
                                 <label
-                                    class="list-group-item px-5 py-4"
+                                    class="list-group-item px-5 py-4 haircut-item"
                                     for="listGroupCheckableRadios2"
                                 >
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p
-                                                class="mb-2 heading-tertiary medium"
+                                                class="mb-2 heading-tertiary medium service-name"
                                             >
                                                 HAIRCUT & BEARD TRIM
                                             </p>
@@ -278,13 +278,13 @@
                                     value=""
                                 />
                                 <label
-                                    class="list-group-item px-5 py-4"
+                                    class="list-group-item px-5 py-4 haircut-item"
                                     for="listGroupCheckableRadios3"
                                 >
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p
-                                                class="mb-2 heading-tertiary medium"
+                                                class="mb-2 heading-tertiary medium service-name"
                                             >
                                                 LINEUP
                                             </p>
@@ -331,13 +331,13 @@
                                     value=""
                                 />
                                 <label
-                                    class="list-group-item px-5 py-4 mb-3"
+                                    class="list-group-item px-5 py-4 mb-3 haircut-item"
                                     for="listGroupCheckableRadios4"
                                 >
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <p
-                                                class="mb-2 heading-tertiary medium"
+                                                class="mb-2 heading-tertiary medium service-name"
                                             >
                                                 BEARD TRIM
                                             </p>
@@ -379,6 +379,7 @@
                                     <a
                                         href="/pages/book-time.html"
                                         class="btn btn-outline-dark rounded-0 px-4 py-2 fs-5"
+                                        onclick="respondToNext()"
                                     >
                                         NEXT
                                     </a>
@@ -415,7 +416,9 @@
                                 >
                                     Barber
                                 </p>
-                                <h6 class="heading-appointment-details">
+                                <h6
+                                    class="heading-appointment-details barber-name"
+                                >
                                     Jonathan Gonzales
                                 </h6>
                             </div>
@@ -496,5 +499,6 @@
             integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
             crossorigin="anonymous"
         ></script>
+        <script src="/js/book-service.js"></script>
     </body>
 </html>
